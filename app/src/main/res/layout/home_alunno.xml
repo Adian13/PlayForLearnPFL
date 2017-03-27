@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/textTitle"
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <!--TextView
+        android:text="Home"
+        android:textSize="30dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        tools:text="@string/home" /-->
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#00ffffff"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:text="Italiano"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_italiano"
+            android:textAllCaps="false"
+            android:paddingLeft="20dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/abc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btItaliano" />
+
+        <Button
+            android:background="@drawable/button_matematica"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"
+            android:text="Matematica"
+            android:paddingLeft="20dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btMatematica" />
+
+        <Button
+            android:text="Inglese"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_inglese"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/inglese"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:id="@+id/btInglese" />
+
+        <Button
+            android:text="Storia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:paddingLeft="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/piramid"
+            android:background="@drawable/button_storia"
+            android:id="@+id/btStoria" />
+
+        <Button
+            android:text="Geografia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/mapp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button"
+            android:id="@+id/btGeografia" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Top10"
+            android:id="@+id/btTop10"
+            android:background="#00000000"
+            android:src="@drawable/coppa_ida"/>
+        <ImageButton
+            android:layout_width="100dp"
+            android:id="@+id/myRecord"
+            android:background="#00000000"
+            android:layout_height="100dp"
+            android:src="@drawable/medaglia_ida"
+            android:text="MyRecord"/>
+
+        <ImageButton
+            android:background="#00000000"
+            android:src="@drawable/joystick"
+            android:id="@+id/btAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account"/>
+
+
+    </LinearLayout>
+</LinearLayout>

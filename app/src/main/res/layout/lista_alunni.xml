@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_marginTop="5dp"
+    android:padding="3dp"
+    android:layout_height="wrap_content">
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edit"
+            android:layout_marginLeft="170dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:hint="inserisci username da cercare"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="30dp"
+            android:src="@android:drawable/ic_search_category_default"
+            android:background="@color/colorTrasparente"
+            android:id="@+id/lente"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text=" Username "
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="7dp"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_marginLeft="170dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginRight="7dp"
+            android:text=" Record"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="301dp">
+
+    </ListView>
+
+    <ImageButton
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="10dp"
+        android:background="#00ffffff"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icona_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bthome" />
+
+</LinearLayout>

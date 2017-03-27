@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+     >
+        <TextView
+            android:id="@+id/tvRecordItaliano"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:background="@drawable/button_italiano"
+            android:layout_height="wrap_content"
+            android:text="Italiano"/>
+        <TextView
+            android:id="@+id/tvRecordMatematica"
+            android:background="@drawable/button_matematica"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:text="Matematica"
+            />
+        <TextView
+            android:id="@+id/tvRecordInglese"
+            android:layout_width="match_parent"
+            android:text="Inglese"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_inglese"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvRecordStoria"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_storia"
+            android:text="Storia"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvRecordGeografia"
+            android:text="Geografia"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/button"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:textSize="15dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#00ffffff"
+            android:paddingBottom="10dp"
+            android:src="@drawable/icona_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bthome" />
+
+</LinearLayout>

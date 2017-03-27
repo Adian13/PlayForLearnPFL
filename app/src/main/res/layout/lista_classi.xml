@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="20dp"
+    android:layout_height="match_parent"
+    >
+
+
+    <Button
+        android:text="Prima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroud_text"
+        android:onClick="listaAlunni"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:id="@+id/prima" />
+
+    <Button
+        android:text="Seconda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroud_text"
+        android:onClick="listaAlunni"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:id="@+id/seconda" />
+
+    <Button
+        android:text="Terza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/backgroud_text"
+        android:onClick="listaAlunni"
+        android:textAllCaps="false"
+        android:id="@+id/terza" />
+
+    <Button
+        android:text="Quarta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/backgroud_text"
+        android:onClick="listaAlunni"
+        android:textAllCaps="false"
+        android:id="@+id/quarta" />
+
+    <Button
+        android:text="Quinta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/backgroud_text"
+        android:onClick="listaAlunni"
+        android:textAllCaps="false"
+        android:id="@+id/quinta" />
+
+    <ImageButton
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="10dp"
+        android:background="#00ffffff"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icona_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bthome" />
+
+
+</LinearLayout>
