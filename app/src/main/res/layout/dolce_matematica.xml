@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#00fefeff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:weightSum="1">
+
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/testoQuesito"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_gravity="top"
+            android:hint="Domanda Quiz"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="0.31" />
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="137dp"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/puozzschiattaa"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:id="@+id/raffaelecoglione"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" >
+
+
+        <Button
+            android:id="@+id/buttonTrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/bgr_true"
+            android:onClick="onClickRisposta"
+            android:text="Vero" />
+
+        <Button
+            android:id="@+id/buttonFalse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/bgr_true_false"
+            android:onClick="onClickRisposta"
+            android:text="Falso" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="bottom">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="back"
+        android:paddingTop="8dp"
+        android:onClick="onClickAltroQuesito"
+        android:textAlignment="center"
+        android:background="@drawable/bgr_backnew"
+        android:layout_marginStart="5dp"
+        android:gravity="right"
+        android:id="@+id/buttonPrev"/>
+
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="suggerimento"
+            android:layout_marginEnd="20dp"
+            android:id="@id/suggerimento"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.14" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginStart="5dp"
+        android:paddingTop="8dp"
+        android:layout_height="32dp"
+        android:text="@string/str_next"
+        android:onClick="onClickAltroQuesito"
+        android:textAlignment="center"
+        android:background="@drawable/bgr_backnew"
+        android:gravity="right"
+        android:id="@+id/buttonSucc"/>
+        </LinearLayout>
+
+</LinearLayout>

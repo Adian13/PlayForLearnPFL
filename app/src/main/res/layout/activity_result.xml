@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Giochi.ResultActivity"
+    android:background="@drawable/panda">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textResult"
+            android:id="@+id/testo"
+            android:text="Per un ulteriore partita premere il pulsante:"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rigioca"
+            android:text="rigioca"
+            android:layout_below="@id/testo"
+            android:onClick="rigioca"/>
+
+        <FrameLayout
+            android:id="@+id/frameSpacing"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_below="@id/rigioca"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frameSpacing"
+            android:id="@+id/testo1"
+            android:textSize="20dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:rating="0.0" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

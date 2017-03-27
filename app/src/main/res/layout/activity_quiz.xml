@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Giochi.QuizActivityItaliano"
+ >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:weightSum="1">
+
+        <TextView
+            android:paddingTop="20dp"
+            android:gravity="center_horizontal"
+            android:textStyle="italic"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="40dp"
+            android:paddingEnd="30dp"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textSize="30dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_marginTop="20dp"
+            android:layout_width="329dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginEnd="30dp"
+            android:paddingStart="40dp">
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_marginTop="20dp"
+                android:textStyle="italic"
+                android:textSize="20dp"
+                android:text="RadioButton" />
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="RadioButton" />
+            <RadioButton
+                android:id="@+id/radio2"
+                android:textStyle="italic"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_marginTop="30dp"
+            android:layout_width="130dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="28dp"
+            android:background="@drawable/bgr_backnew"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:text="@string/str_next"
+            android:layout_weight="0.12" />
+    </LinearLayout>
+</RelativeLayout>
+
